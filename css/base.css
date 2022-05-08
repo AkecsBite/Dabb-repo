@@ -172,12 +172,16 @@ bottom: 0;
    overflow-x: hidden;
    display: flex;
    flex-wrap: wrap;
-   margin-top:30rem;
+   margin-top:26rem;
    }
 
-.comp__container:hover .comp_row{
+.comp__container:hover{
    overflow-x: scroll;
-   justify-content: flex-start;
+   scroll-behavior: smooth;
+   }
+
+.comp__container:hover .comp_row {
+     justify-content: flex-start;
    }
 
 .comp_row{
