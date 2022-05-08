@@ -5,10 +5,12 @@
  width: 100vw;
  display: flex;
  align-items: center;
- padding-top: 2rem;
+ padding-block: 1.5rem;
  padding-inline: 10rem;
  z-index: 2;
- background-color: rgba(209, 198, 232, 0.7);
+ background-color: #F8F8FD;
+ opacity: 0.9;
+ box-shadow: 1px 1px 1px rgba(24, 16, 41, 0.073);
 }
 
 .header_img{
@@ -86,7 +88,7 @@
   } 
 
   .header{
-     padding:2rem 0 1rem 0;
+     padding:2rem 0 2rem 0;
      }
 
   .header_img {
@@ -97,8 +99,8 @@
   .toggle_button{ 
      display:flex;
      position: absolute;
-     top: 2.5rem;
-     right: 5rem;
+     top: 3rem;
+     right: 6rem;
      flex-direction: column;
      justify-content: space-between;
      width: 5rem;
